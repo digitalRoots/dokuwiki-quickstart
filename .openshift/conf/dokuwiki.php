@@ -27,7 +27,7 @@ $conf['mediarevisions'] = 1;        //enable/disable media revisions
 /* Display Options */
 
 $conf['start']       = 'start';           //name of start page
-$conf['title']       = 'DokuWiki';        //what to show in the title
+$conf['title']       = 'digitalRoots Documentation';        //what to show in the title
 $conf['template']    = 'dokuwiki';         //see lib/tpl directory
 $conf['license']     = 'cc-by-nc-sa';     //see conf/license.php
 $conf['fullpath']    = 0;                 //show full path of the document or relative to datadir only? 0|1
