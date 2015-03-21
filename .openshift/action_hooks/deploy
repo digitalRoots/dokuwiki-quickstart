@@ -19,7 +19,7 @@ if [ ! -d ${data_dir} ]; then
   admin_pwd=$(generate_password)
   admin_pwd_md5=$(echo -n $admin_pwd | md5sum | cut -d' ' -f1)
 
-  echo "admin:${admin_pwd_md5}:Administrator:example@example.com:admin,user" >> $auth_conf
+  echo "digitalroots:${admin_pwd_md5}:Administrator:example@example.com:admin,user" >> $auth_conf
 
   client_result ""
   client_result "DokuWiki ${current_version} deployed succesfully."
